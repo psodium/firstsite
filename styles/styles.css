@@ -1,0 +1,25 @@
+html {
+  background-color: #FFFFFF;
+}
+/* comments */
+body {
+  width: 660;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  background-color: #FF9500;
+  border: 5px solid black;
+}
+p, li, h1 {
+  color: red;
+}
+h1 {
+  font-size: 60px;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-align: center;
+}
+img{ 
+	width: 100px;
+	height: 100px;
+	}
