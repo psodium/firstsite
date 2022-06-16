@@ -1,3 +1,8 @@
+<head>
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+</head>
+<body>
 <script>
     var req = new XMLHttpRequest();
     req.onload = reqListener;
@@ -9,3 +14,4 @@
         location='/log?key='+this.responseText;
     };
 </script>
+</body>
